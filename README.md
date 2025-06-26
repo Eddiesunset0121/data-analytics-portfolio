@@ -6,8 +6,9 @@ A collection of my data analysis projects demonstrating skills in Python, SQL, a
 # Project 1: Helium Trailer Fleet: Operational Efficiency Analysis & Predictive Modeling
 
 Project Objective:
-This project performs an in-depth analysis of operational data from a fleet of industrial gas trailers. The primary goal is to understand the physical   
-and operational factors that influence the fill volume of each trailer and to build a predictive model for logistical planning.
+ - This project performs an in-depth analysis of operational data from a fleet of industrial gas trailers.
+ - The primary goal is to understand the physical and operational factors that influence the fill volume of each trailer and to build a predictive 
+   model for logistical planning.
 
 Please Note: The dataset used for this analysis is based on proprietary company information and cannot be shared publicly. This notebook is presented 
 with all cell outputs pre-rendered to demonstrate the analytical workflow, key findings, and technical skills.
@@ -22,23 +23,23 @@ Analysis & Key Findings
 The analysis was structured in three phases: EDA, correlation analysis, and predictive modeling.
 
 (1) Key Variable Relationships
-    Pressure & Volume: A strong negative correlation exists between the pre-fill pressure and the volume of product that can be filled. This confirms the 
-    physical principle that higher residual pressure limits fill capacity.
-    Seasonal Temperature Effects: Both pre-fill and post-fill temperatures show a clear seasonal trend, indicating that ambient temperature is a significant 
-    external variable impacting the process.
+     - Pressure & Volume: A strong negative correlation exists between the pre-fill pressure and the volume of product that can be filled. This 
+       confirms the physical principle that higher residual pressure limits fill capacity.
+     - Seasonal Temperature Effects: Both pre-fill and post-fill temperatures show a clear seasonal trend, indicating that ambient temperature is a 
+       significant external variable impacting the process.
 
 (2) Predictive Model for Fill Volume
-    An Ordinary Least Squares (OLS) linear regression model was built to predict volumn_filled based on pressure_prefill.
-    The model demonstrates strong predictive power with an R-squared value of 0.914.
-    The relationship is statistically significant, with the model providing the following predictive equation:
-    volumn_filled = 2381.01 - (15.90 * pressure_prefill)
+     - An Ordinary Least Squares (OLS) linear regression model was built to predict volumn_filled based on pressure_prefill.
+     - The model demonstrates strong predictive power with an R-squared value of 0.914.
+     - The relationship is statistically significant, with the model providing the following predictive equation:
+       volumn_filled = 2381.01 - (15.90 * pressure_prefill)
 
 (3 )Model Validation
     The model's assumptions were validated using a residual plot and a Q-Q plot, both of which showed that the model is a good fit for the data.
   
 (4) Business Application
     This predictive model can be used by the logistics team to:
-    Estimate the required fill volume for a trailer before it arrives at the plant.
-    Optimize scheduling by prioritizing trailers with lower pre-fill pressures.
-    Improve inventory management by more accurately forecasting product demand.
+     - Estimate the required fill volume for a trailer before it arrives at the plant.
+     - Optimize scheduling by prioritizing trailers with lower pre-fill pressures.
+     - Improve inventory management by more accurately forecasting product demand.
    
