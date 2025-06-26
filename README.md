@@ -1,5 +1,5 @@
 # data-analytics-portfolio
-# A collection of my data analysis projects demonstrating skills in Python, SQL, and data visualization
+A collection of my data analysis projects demonstrating skills in Python, SQL, and data visualization
 
 # Project 1: Helium Trailer Fleet: Operational Efficiency Analysis & Predictive Modeling
 
