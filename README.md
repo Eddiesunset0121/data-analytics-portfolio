@@ -2,7 +2,7 @@
 A collection of my data analysis projects demonstrating skills in Python, SQL, and data visualization
 
 # Project 1: 
-Helium Trailer Fleet: Operational Efficiency Analysis & Predictive Modeling
+# Helium Trailer Fleet: Operational Efficiency Analysis & Predictive Modeling
 
 Project Objective:
 This project performs an in-depth analysis of operational data from a fleet of industrial gas trailers. The primary goal is to understand the physical   
