@@ -10,8 +10,8 @@ Project Objective:
  - The primary goal is to understand the physical and operational factors that influence the fill volume of each trailer and to build a predictive 
    model for logistical planning.
 
-Please Note: The dataset used for this analysis is based on proprietary company information and cannot be shared publicly. This notebook is presented 
-with all cell outputs pre-rendered to demonstrate the analytical workflow, key findings, and technical skills.
+(Please Note: The dataset used for this analysis is based on proprietary company information and cannot be shared publicly. This notebook is presented 
+with all cell outputs pre-rendered to demonstrate the analytical workflow, key findings, and technical skills.)
 
 Key Skills & Tools
 -   Data Cleaning & Manipulation: Pandas, NumPy
