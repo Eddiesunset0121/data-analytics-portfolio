@@ -34,7 +34,7 @@ The analysis was structured in three phases: EDA, correlation analysis, and pred
      - The relationship is statistically significant, with the model providing the following predictive equation:
        volumn_filled = 2381.01 - (15.90 * pressure_prefill)
 
-(3 )Model Validation
+(3) Model Validation
     The model's assumptions were validated using a residual plot and a Q-Q plot, both of which showed that the model is a good fit for the data.
   
 (4) Business Application
